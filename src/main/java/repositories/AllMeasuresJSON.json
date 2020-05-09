@@ -1,1 +1,106 @@
-[{"id":1,"deviceId":1,"deviceName":"sensorVäxtHuset","temperature":8.3,"humidity":44.5,"luminosity":70},{"id":2,"deviceId":1,"deviceName":"sensorVäxtHuset","temperature":5.1,"humidity":40.5,"luminosity":72},{"id":3,"deviceId":1,"deviceName":"sensorVäxtHuset","temperature":4.0,"humidity":50.2,"luminosity":75},{"id":4,"deviceId":1,"deviceName":"sensorVäxtHuset","temperature":10.6,"humidity":55.8,"luminosity":85},{"id":5,"deviceId":1,"deviceName":"sensorVäxtHuset","temperature":15.5,"humidity":75.2,"luminosity":90},{"id":6,"deviceId":1,"deviceName":"sensorVäxtHuset","temperature":19.9,"humidity":86.5,"luminosity":100},{"id":7,"deviceId":1,"deviceName":"sensorVäxtHuset","temperature":2.3,"humidity":20.4,"luminosity":29},{"id":8,"deviceId":1,"deviceName":"sensorVäxtHuset","temperature":6.4,"humidity":25.3,"luminosity":41}]
+[ {
+  "temperature" : 8.3,
+  "humidity" : 44.5,
+  "luminosity" : 70,
+  "id" : 1,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset"
+}, {
+  "temperature" : 5.1,
+  "humidity" : 40.5,
+  "luminosity" : 72,
+  "id" : 2,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset"
+}, {
+  "temperature" : 4.0,
+  "humidity" : 50.2,
+  "luminosity" : 75,
+  "id" : 3,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset"
+}, {
+  "temperature" : 10.6,
+  "humidity" : 55.8,
+  "luminosity" : 85,
+  "id" : 4,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset"
+}, {
+  "temperature" : 15.5,
+  "humidity" : 75.2,
+  "luminosity" : 90,
+  "id" : 5,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset"
+}, {
+  "temperature" : 19.9,
+  "humidity" : 86.5,
+  "luminosity" : 100,
+  "id" : 6,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset"
+}, {
+  "temperature" : 2.3,
+  "humidity" : 20.4,
+  "luminosity" : 29,
+  "id" : 7,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset"
+}, {
+  "temperature" : 6.4,
+  "humidity" : 25.3,
+  "luminosity" : 41,
+  "id" : 8,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset"
+}, {
+  "temperature" : 11.3,
+  "humidity" : 84.7,
+  "luminosity" : 99,
+  "id" : 10,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset"
+}, {
+  "temperature" : 11.3,
+  "humidity" : 84.7,
+  "luminosity" : 99,
+  "id" : 10,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset"
+}, {
+  "temperature" : 11.3,
+  "humidity" : 84.7,
+  "luminosity" : 99,
+  "id" : 10,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset"
+}, {
+  "temperature" : 11.3,
+  "humidity" : 84.7,
+  "luminosity" : 99,
+  "id" : 10,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset"
+}, {
+  "temperature" : 11.3,
+  "humidity" : 84.7,
+  "luminosity" : 99,
+  "id" : 10,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset"
+}, {
+  "temperature" : 111.0,
+  "humidity" : 2222.0,
+  "luminosity" : 444,
+  "id" : 10,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset"
+}, {
+  "id" : 10,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset",
+  "temperature" : 1234.0,
+  "humidity" : 2222.0,
+  "luminosity" : 444
+} ]

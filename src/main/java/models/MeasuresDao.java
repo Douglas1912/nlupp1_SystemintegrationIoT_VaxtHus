@@ -26,6 +26,7 @@ public class MeasuresDao {
         MeasuresList.add(m6);
         MeasuresList.add(m7);
         MeasuresList.add(m8);
+       // MeasuresList.clear();
 
         return MeasuresList;
 

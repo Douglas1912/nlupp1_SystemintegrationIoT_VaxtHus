@@ -2,6 +2,7 @@
   "temperature" : 8.3,
   "humidity" : 44.5,
   "luminosity" : 70,
+  "createdDateTime" : "05-01-2020 18:00:00",
   "id" : 1,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset"
@@ -9,6 +10,7 @@
   "temperature" : 5.1,
   "humidity" : 40.5,
   "luminosity" : 72,
+  "createdDateTime" : "05-02-2020 18:30:01",
   "id" : 2,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset"
@@ -16,6 +18,7 @@
   "temperature" : 4.0,
   "humidity" : 50.2,
   "luminosity" : 75,
+  "createdDateTime" : "05-03-2020 17:05:05",
   "id" : 3,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset"
@@ -23,6 +26,7 @@
   "temperature" : 10.6,
   "humidity" : 55.8,
   "luminosity" : 85,
+  "createdDateTime" : "05-04-2020 17:10:15",
   "id" : 4,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset"
@@ -30,6 +34,7 @@
   "temperature" : 15.5,
   "humidity" : 75.2,
   "luminosity" : 90,
+  "createdDateTime" : "05-05-2020 18:34:28",
   "id" : 5,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset"
@@ -37,6 +42,7 @@
   "temperature" : 19.9,
   "humidity" : 86.5,
   "luminosity" : 100,
+  "createdDateTime" : "05-06-2020 16:30:30",
   "id" : 6,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset"
@@ -44,6 +50,7 @@
   "temperature" : 2.3,
   "humidity" : 20.4,
   "luminosity" : 29,
+  "createdDateTime" : "05-07-2020 20:35:30",
   "id" : 7,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset"
@@ -51,56 +58,107 @@
   "temperature" : 6.4,
   "humidity" : 25.3,
   "luminosity" : 41,
+  "createdDateTime" : "05-08-2020 21:30:10",
   "id" : 8,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset"
 }, {
-  "temperature" : 11.3,
-  "humidity" : 84.7,
-  "luminosity" : 99,
-  "id" : 10,
+  "temperature" : 0.0,
+  "humidity" : 0.0,
+  "luminosity" : 0,
+  "createdDateTime" : "05-10-2020 02:30:09",
+  "id" : 9,
   "deviceId" : 1,
-  "deviceName" : "sensorVäxtHuset"
+  "deviceName" : "sensorVäxtHuset",
+  "manualPosting" : true
 }, {
-  "temperature" : 11.3,
-  "humidity" : 84.7,
-  "luminosity" : 99,
-  "id" : 10,
-  "deviceId" : 1,
-  "deviceName" : "sensorVäxtHuset"
-}, {
-  "temperature" : 11.3,
-  "humidity" : 84.7,
-  "luminosity" : 99,
-  "id" : 10,
-  "deviceId" : 1,
-  "deviceName" : "sensorVäxtHuset"
-}, {
-  "temperature" : 11.3,
-  "humidity" : 84.7,
-  "luminosity" : 99,
-  "id" : 10,
-  "deviceId" : 1,
-  "deviceName" : "sensorVäxtHuset"
-}, {
-  "temperature" : 11.3,
-  "humidity" : 84.7,
-  "luminosity" : 99,
-  "id" : 10,
-  "deviceId" : 1,
-  "deviceName" : "sensorVäxtHuset"
-}, {
-  "temperature" : 111.0,
-  "humidity" : 2222.0,
-  "luminosity" : 444,
-  "id" : 10,
-  "deviceId" : 1,
-  "deviceName" : "sensorVäxtHuset"
-}, {
+  "temperature" : 0.0,
+  "humidity" : 0.0,
+  "luminosity" : 0,
+  "createdDateTime" : "05-10-2020 02:30:21",
   "id" : 10,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset",
-  "temperature" : 1234.0,
-  "humidity" : 2222.0,
-  "luminosity" : 444
+  "manualPosting" : true
+}, {
+  "temperature" : 0.0,
+  "humidity" : 0.0,
+  "luminosity" : 0,
+  "createdDateTime" : "05-10-2020 02:30:21",
+  "id" : 11,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset",
+  "manualPosting" : true
+}, {
+  "temperature" : 0.0,
+  "humidity" : 0.0,
+  "luminosity" : 0,
+  "createdDateTime" : "05-10-2020 02:30:21",
+  "id" : 12,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset",
+  "manualPosting" : true
+}, {
+  "temperature" : 0.0,
+  "humidity" : 0.0,
+  "luminosity" : 0,
+  "createdDateTime" : "05-10-2020 02:30:22",
+  "id" : 13,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset",
+  "manualPosting" : true
+}, {
+  "temperature" : 0.0,
+  "humidity" : 0.0,
+  "luminosity" : 0,
+  "createdDateTime" : "05-10-2020 02:30:22",
+  "id" : 14,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset",
+  "manualPosting" : true
+}, {
+  "temperature" : 0.0,
+  "humidity" : 0.0,
+  "luminosity" : 0,
+  "createdDateTime" : "05-10-2020 02:30:22",
+  "id" : 15,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset",
+  "manualPosting" : true
+}, {
+  "temperature" : 0.0,
+  "humidity" : 0.0,
+  "luminosity" : 0,
+  "createdDateTime" : "05-10-2020 02:30:23",
+  "id" : 16,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset",
+  "manualPosting" : true
+}, {
+  "temperature" : 0.0,
+  "humidity" : 0.0,
+  "luminosity" : 0,
+  "createdDateTime" : "05-10-2020 02:30:23",
+  "id" : 17,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset",
+  "manualPosting" : true
+}, {
+  "temperature" : 0.0,
+  "humidity" : 0.0,
+  "luminosity" : 0,
+  "createdDateTime" : "05-10-2020 02:30:23",
+  "id" : 18,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset",
+  "manualPosting" : true
+}, {
+  "id" : 19,
+  "deviceId" : 1,
+  "deviceName" : "sensorVäxtHuset",
+  "temperature" : 0.0,
+  "humidity" : 0.0,
+  "luminosity" : 0,
+  "createdDateTime" : "05-10-2020 02:30:24",
+  "manualPosting" : true
 } ]

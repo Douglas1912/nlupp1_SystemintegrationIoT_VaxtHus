@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class GreenHouseClient {
-    static List<Measures> MeasuresList = new ArrayList<>();
+    static List<Measures> measuresArrayList = new ArrayList<>();
 
 
     public static void logAllCurrentValues() {
@@ -40,7 +40,7 @@ public class GreenHouseClient {
         m.setTemperature(temp);
         m = restTemplate.postForObject(uri, m, Measures.class);
 
-        MeasuresList.add(m);
+        measuresArrayList.add(m);
         System.out.println("\nUpdated Temperature value" );
 
     }

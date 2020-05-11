@@ -18,9 +18,8 @@ public class Measures {
 
     public Measures(){
         LocalDateTime myDateObj = LocalDateTime.now();
-        DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("MM-dd-yyyy HH:mm:ss");
+        DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         String formattedDate = myDateObj.format(myFormatObj);
-        id = 10;
         deviceId = 1;
         deviceName = "sensorVäxtHuset";
         createdDateTime = formattedDate;

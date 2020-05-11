@@ -33,6 +33,7 @@ public class GreenHouseClient {
                 result.getLuminosity()+" L⊙");
         return result;
     }
+
     public static void updateCurrentTempValue(float temp){
         final String uri = "http://localhost:8080/measures/temperature";
         Measures m = new Measures();
@@ -91,7 +92,7 @@ public class GreenHouseClient {
 
         System.out.println("\nTemperature , day by day, last week and average for the week");
         for(Measures b : result) {
-            System.out.println("Id: "+b.getId()+". Temperature = "+b.getTemperature()+" °C");
+            System.out.println("Id: "+b.getId()+". Temperature = "+b.getTemperature()+" °C"+ " Created: "+ b.getCreatedDateTime());
             average += b.getTemperature();
         }
         System.out.print("Average Temperature for the week = ");

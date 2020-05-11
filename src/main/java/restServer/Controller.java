@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.google.gson.Gson;
 import models.Measures;
 import models.MeasuresDao;
+import models.MeasuresDao2;
 import models.Response;
 import org.apache.commons.logging.Log;
 import org.json.JSONArray;
@@ -34,6 +35,7 @@ public class Controller {
     Response resp = new Response();
     MeasuresDao measuresDao = new MeasuresDao();
     List<Measures> measuresList = measuresDao.getAllMeasures();
+
 
     @PostMapping("/measures/temperature")
     public Measures updateCurrentTemperature(@RequestBody Measures m){
@@ -150,10 +152,41 @@ public class Controller {
 
 
     @RequestMapping("/measuresHTML")
-    public String getBooksHTML() {
+    public String getMeasuresHTML() {
         String res = "<HTML><HEAD><TITLE>Books</TITLE></HEAD><BODY><TABLE>";
         for (Measures b : measuresList) {
             res += "<TR><TD>" + b.getId() + "</TD><TD>" + b.getDeviceName() + "</TD><TD>" + b.getTemperature() + "</TD></TR>";
+        }
+        res += "</TABLE></HTML>";
+        return res;
+    }
+
+    @RequestMapping("/measuresJsonHTML")
+    public String getMeasuresJsonHTML() throws IOException, ParseException {
+
+        MeasuresDao2 mDao2 = new MeasuresDao2();
+        List<Object> measuresJsonFileList = null;
+
+        {
+            try {
+                measuresJsonFileList = mDao2.getAllJsonMeasures();
+
+                for(Object obj : measuresJsonFileList){
+                    System.out.println(obj);
+
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+        }
+
+
+
+        String res = "<HTML><HEAD><TITLE>Books</TITLE></HEAD><BODY><TABLE>";
+        for (Object b : measuresJsonFileList) {
+            res += "<TR><TD>" + b + "</TD></TR>";
         }
         res += "</TABLE></HTML>";
         return res;

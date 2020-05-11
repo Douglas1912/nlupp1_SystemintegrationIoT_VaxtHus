@@ -1,4 +1,4 @@
-package models;
+package client;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -11,21 +11,20 @@ public class Measures {
     private float temperature;
     private float humidity;
     private int luminosity;
-    private LocalDateTime created;
+    private LocalDateTime dateTime;
     private String createdDateTime;
+    private Boolean manualPosting;
 
 
     public Measures(){
         LocalDateTime myDateObj = LocalDateTime.now();
-        DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("MM-dd-yyyy HH:mm:ss");
+        DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         String formattedDate = myDateObj.format(myFormatObj);
         id = 10;
         deviceId = 1;
         deviceName = "sensorVäxtHuset";
-        temperature = 11.3f;
-        humidity = 84.7f;
-        luminosity = 99;
         createdDateTime = formattedDate;
+        manualPosting = true;
     }
 
     public Measures(int id, int deviceId, String deviceName, float temperature, float humidity, int luminosity, String createdDateTime){
@@ -44,9 +43,9 @@ public class Measures {
     public String getDeviceName(){
         return deviceName;
     }
-    public LocalDateTime getCreated(){
-        return created;
-    }
+    public String getCreatedDateTime(){ return createdDateTime; }
+    public Boolean getManualPosting(){ return manualPosting; }
+
 
     public float getTemperature(){ return temperature; }
     public float getHumidity(){ return humidity; }
@@ -56,9 +55,10 @@ public class Measures {
 
     public void setId(int id){ this.id = id; }
     public void setDeviceName(String deviceName){ this.deviceName = deviceName; }
-    public void setCreated(LocalDateTime created){this.created = created; }
+    public void setCreatedDateTimee(String createdDateTime){this.createdDateTime = createdDateTime; }
     public void setTemperature(float temperature){this.temperature = temperature; }
     public void setHumidity(float humidity){this.humidity = humidity; }
     public void setLuminosity(int luminosity){this.luminosity = luminosity; }
+    public void setManualPosting(Boolean manualPosting){this.manualPosting = manualPosting; }
 
 }

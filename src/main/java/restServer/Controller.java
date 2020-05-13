@@ -8,10 +8,8 @@ import models.Measures;
 import models.MeasuresDao;
 import models.MeasuresDao2;
 import models.Response;
-import org.apache.commons.logging.Log;
 import org.json.JSONArray;
 
-import org.json.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -23,10 +21,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 @RestController
 public class Controller {
@@ -74,10 +69,10 @@ public class Controller {
         }
 
         String created = m.getCreatedDateTime();
-        measures.setCreatedDateTimee(created);
+        measures.setCreatedDateTime(created);
         Boolean manualPosting = m.getManualPosting();
 
-        measures.setCreatedDateTimee(created);
+        measures.setCreatedDateTime(created);
         measures.setManualPosting(manualPosting);
         measures.setId(counter+1);
 
@@ -116,13 +111,6 @@ public class Controller {
 
 
 
-
-    /*@RequestMapping(value = "/measures", headers = "Accept=application/json")
-    public List<Measures> index() {
-        return measuresList;
-    }*/
-
-
     @RequestMapping(value = "/currentMeasuresJSON", headers = "Accept=application/json")
     public Measures currentMeasuresJSON() {
         return measures;
@@ -142,6 +130,7 @@ public class Controller {
         try (FileWriter writer = new FileWriter(
                 "src/main/java/repositories/AllMeasuresJSON.json");) {
             writer.write(json);
+
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -172,7 +161,7 @@ public class Controller {
                 measuresJsonFileList = mDao2.getAllJsonMeasures();
 
                 for(Object obj : measuresJsonFileList){
-                    System.out.println(obj);
+                    System.out.println();
 
                 }
             } catch (IOException e) {

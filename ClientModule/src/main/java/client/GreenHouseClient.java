@@ -6,6 +6,8 @@ import models.*;
 import org.springframework.web.client.RestTemplate;
 
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -88,7 +90,9 @@ public class GreenHouseClient {
         final String uri = "http://localhost:8080/measures";
         RestTemplate restTemplate = new RestTemplate();
         Measures[] resultArray = restTemplate.getForObject(uri, Measures[].class);
-        List<Measures> result = Arrays.asList(resultArray);
+        List<Measures> result = Arrays.asList(resultArray) ;
+
+
 
         System.out.println("\nTemperature , day by day, last week and average for the week");
         for(Measures b : result) {
@@ -334,7 +338,7 @@ public class GreenHouseClient {
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, IOException {
 
         mainMenu();
     }

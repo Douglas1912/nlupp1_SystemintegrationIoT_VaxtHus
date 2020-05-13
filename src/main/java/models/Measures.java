@@ -54,7 +54,7 @@ public class Measures {
 
     public void setId(int id){ this.id = id; }
     public void setDeviceName(String deviceName){ this.deviceName = deviceName; }
-    public void setCreatedDateTimee(String createdDateTime){this.createdDateTime = createdDateTime; }
+    public void setCreatedDateTime(String createdDateTime){this.createdDateTime = createdDateTime; }
     public void setTemperature(float temperature){this.temperature = temperature; }
     public void setHumidity(float humidity){this.humidity = humidity; }
     public void setLuminosity(int luminosity){this.luminosity = luminosity; }

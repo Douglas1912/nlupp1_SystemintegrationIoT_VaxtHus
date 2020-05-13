@@ -10,7 +10,7 @@
   "temperature" : 5.1,
   "humidity" : 40.5,
   "luminosity" : 72,
-  "createdDateTime" : "02-05-2020 18:30:01",
+  "createdDateTime" : "02-05-2020 18:30:15",
   "id" : 2,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset"
@@ -18,7 +18,7 @@
   "temperature" : 4.0,
   "humidity" : 50.2,
   "luminosity" : 75,
-  "createdDateTime" : "03-05-2020 17:05:05",
+  "createdDateTime" : "03-05-2020 17:05:21",
   "id" : 3,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset"
@@ -26,7 +26,7 @@
   "temperature" : 10.6,
   "humidity" : 55.8,
   "luminosity" : 85,
-  "createdDateTime" : "04-05-2020 17:10:15",
+  "createdDateTime" : "04-05-2020 17:10:11",
   "id" : 4,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset"
@@ -34,7 +34,7 @@
   "temperature" : 15.5,
   "humidity" : 75.2,
   "luminosity" : 90,
-  "createdDateTime" : "05-05-2020 18:34:28",
+  "createdDateTime" : "05-05-2020 18:34:54",
   "id" : 5,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset"
@@ -63,48 +63,30 @@
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset"
 }, {
-  "temperature" : 4.5,
-  "humidity" : 47.6,
-  "luminosity" : 98,
-  "createdDateTime" : "10-05-2020 19:13:37",
+  "temperature" : 0.0,
+  "humidity" : 0.0,
+  "luminosity" : 0,
+  "createdDateTime" : "12-05-2020 22:32:54",
   "id" : 9,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset",
   "manualPosting" : true
 }, {
-  "temperature" : 0.0,
+  "temperature" : 1.1,
   "humidity" : 0.0,
   "luminosity" : 0,
-  "createdDateTime" : "11-05-2020 20:33:29",
+  "createdDateTime" : "13-05-2020 13:22:48",
   "id" : 10,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset",
   "manualPosting" : true
 }, {
-  "temperature" : 0.0,
-  "humidity" : 0.0,
-  "luminosity" : 0,
-  "createdDateTime" : "11-05-2020 20:33:41",
   "id" : 11,
   "deviceId" : 1,
   "deviceName" : "sensorVäxtHuset",
-  "manualPosting" : true
-}, {
-  "temperature" : 0.0,
-  "humidity" : 0.0,
-  "luminosity" : 0,
-  "createdDateTime" : "11-05-2020 20:44:35",
-  "id" : 12,
-  "deviceId" : 1,
-  "deviceName" : "sensorVäxtHuset",
-  "manualPosting" : true
-}, {
-  "id" : 13,
-  "deviceId" : 1,
-  "deviceName" : "sensorVäxtHuset",
-  "temperature" : 0.0,
-  "humidity" : 0.0,
-  "luminosity" : 0,
-  "createdDateTime" : "11-05-2020 21:20:29",
+  "temperature" : 1.1,
+  "humidity" : 45.0,
+  "luminosity" : 99,
+  "createdDateTime" : "13-05-2020 13:24:01",
   "manualPosting" : true
 } ]
